@@ -1,0 +1,1459 @@
+body{
+        background-color: #1c1c1c;
+}
+.tail{
+    background-color: #2c2c2c;
+    padding: 10px 0px 10px 0px;
+    color:#ececec;
+}
+.tail .nama-event{
+    font-size: 25px;
+    margin: 0px;
+}
+.tail ul li{
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    padding-left: 6px;
+    color: #d33f0f;
+}
+.tail ul li i{
+    color: #d33f0f;
+    margin-right: 12px;
+}
+.tail ul{
+    margin: 0px;
+    padding: 0px;
+}
+.tail2{
+    background-color: #222222;
+    padding: 25px 0px 25px 0px;
+}
+/*---------------------------- Header Afif --------------------------*/
+@font-face {
+    font-family:'roboto-condensed';
+    src : url('roboto-condensed.ttf');
+}
+@font-face {
+    font-family:'wash';
+    src : url('wash.ttf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width : 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'roboto-condensed';
+    
+}
+.nav-bar{
+    background-color: #222222;
+    width: 100%;
+    height: 130px;
+}
+.title-bar-left{
+    display: inline-block;
+    width: 35%;
+    height: 100px;
+}
+.title-bar-left .logo{
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: 10px;
+}
+.title-bar-left h3{
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: -40px;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: 'roboto-condensed';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.title-bar-left p{
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: -50px;
+    left: 35%;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'roboto-condensed';
+    letter-spacing: 0.5px;
+    color: #ff8414;
+}
+.title-bar-right{
+    display: inline-block;
+    width: 27%;
+    position: relative;
+    top: -40px;
+    font-size: 15px;
+    font-family: 'roboto-condensed';
+}
+
+.search{
+    display: inline-block;
+    color: white;
+    margin: 0px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.search-box{
+    background-color: #393939 !important;
+    border: none !important;
+    height: 30px !important;
+    width: 70%;
+    color: white;
+    margin-left: 5px;
+}
+#search-button{
+    color: white;
+    text-transform: none;
+    border: none;
+    background-color: #d33f0f;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    top: -40px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.cat-bar{
+    color: white;
+    background-color: #2c2c2c;
+    border-bottom: 4px solid #d33f0f;
+}
+
+.a-cat{
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-right: 1.5px solid #393939;
+    border-left: none;
+    margin-left: none;
+}
+.a-cat:hover{
+    background-color: #d33f0f;
+}
+.login{
+    position: absolute;
+    right: 220px;
+    border-left: 1.5px solid #393939;
+  
+}
+.logout{
+    position: absolute;
+    top: 130px;
+    height: 41px;
+    right: 140px;
+    border-left: 1.5px solid #393939;
+    background-color: #b22222;
+    border: none;
+}
+
+.backTop{
+    color: white;
+    position: fixed;
+    background-color: #d33f0f;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.backTop i{
+padding: 0px ;
+font-size: 25px;
+}
+.footer{
+    color: white;
+    background-color: #222222;
+}
+.footer img{
+    width: 50px;
+    height: 40px;
+}
+.footer p{
+    display: inline-block;
+    margin: 0px;
+    padding-left: 2px;
+    color: #ff8414;
+    font-size: 15px;
+    position: relative;
+    top : -15px;
+}
+.footer h3{
+    display: inline-block;
+    margin: 0px;
+    padding-left: 2px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    position: relative;
+    top : -15px;
+    
+}
+.sosmed{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 7px;
+    display: inline-block;
+    position: absolute;
+    right: 220px;
+}
+.sosmed li {
+    margin-right: 5px !important;
+    display: inline-block;
+    transition: color,border-color 0.4s ease;
+    list-style: none;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.twitter,.facebook{
+    padding: 5px;
+    color: white;
+    transition: color,border-color 0.4s ease;
+    list-style: none;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 30px;
+    
+
+}
+
+.twitter:before{
+    font-family: 'wash','sans-serif';
+    content: "\e154";
+    font-size:30px;
+    vertical-align: middle;
+    font-size: 15pt !important;
+}
+.facebook:before{
+    font-family: 'wash','sans-serif';
+    content: "\e152";
+    font-size:30px;
+    vertical-align: middle;
+    font-size: 15pt !important;
+}
+.twitter:hover{
+    color: #d33f0f;
+    border-color: #d33f0f;
+    cursor: pointer;
+}
+.facebook:hover{
+    color: #d33f0f;
+    border-color: #d33f0f;
+    cursor: pointer;
+}
+/*---------------------------- Content Ednan --------------------------*/
+form{
+    margin: 0px;
+}
+
+.first{
+    background-color: #222222;
+    border-bottom: 3px solid #663399;
+}
+.second{
+    background-color: #222222;
+    border-bottom: 3px solid #16a085;
+}
+.third{
+    background-color: #222222;
+    border-bottom: 3px solid #b22222;
+}
+.fourth{
+    background-color: #222222;
+    border-bottom: 3px solid #4567e3;
+}
+
+.a{
+    position: absolute;
+    left: 324px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width : 42px 0px 0px 42px;
+    border-color: transparent transparent transparent #663399;
+}
+.b{
+    position: absolute;
+    left: 324px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width : 42px 0px 0px 42px;
+    border-color: transparent transparent transparent #16a085;
+}
+.c{
+    position: absolute;
+    left: 471px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width : 42px 0px 0px 42px;
+    border-color: transparent transparent transparent #b22222;   
+}
+.d{
+    position: absolute;
+    left: 392px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width : 42px 0px 0px 42px;
+    border-color: transparent transparent transparent #4567e3;
+}
+.h1{
+    display: inline-block;
+    color: white;
+    background-color: #b22222;
+    font-weight: 100;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.terbaru{
+    background-color: #663399;
+    border-top: 3px solid #663399;
+    margin: 0px;
+    height: auto;
+}
+.populer{
+    background-color:#16a085;
+    border-top: 3px solid #16a085;
+    margin: 0px;
+    height: auto;   
+}
+.sering{
+    background-color:#b22222;
+    border-top: 3px solid #b22222;
+    margin: 0px;
+    height: auto;       
+}
+.rekomen{
+    background-color:#4567e3;
+    border-top: 3px solid #4567e3;
+    margin: 0px;
+    height: auto;       
+}
+
+
+hr{
+  border-top: 3px solid #b22222;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+
+}
+.satu{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 20px;
+    position: relative;
+}
+.satu form{
+display: inline-block;
+margin: 0px;
+}
+/*
+.dua{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 0px;
+}
+*/
+.satu p#judul{
+    margin: 0px;
+    text-align: right;
+    border: 1px solid black;
+    height: 321px;
+    overflow: hidden;
+}
+.satu p#judul img{
+    max-width:120%;
+    height:100%;
+    
+}
+.satu p#judul a{
+
+    background-color: #222222;
+    text-decoration: none;
+    color: white;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    cursor:default;
+}
+
+.one-two{
+    left: 4px;
+    margin-left: 10px !important;
+}
+.one-two{
+    width: 48%;
+    margin-left: 2px;
+    display: inline-block;
+    position: relative;
+}
+.one-two form{
+    display: inline-block;
+}
+.one-two:hover {
+    cursor: pointer;
+}
+.one-two:hover .popular{
+    opacity: 0.9;
+    transform: translateY(-100%);
+}
+.one-two .popular{
+    opacity: 0;
+    background-color: #d33f0f;
+    padding: 20px;
+    transition: all 300ms ease-out;
+    color: white !important;
+}
+.one-two a#jdl{
+    text-decoration: none;
+    color: white !important;
+    font-size: 20px;
+}
+.one-two p#judul{
+    margin: 0px;
+    text-align: right;
+    background-size: cover;
+    height: 50%;
+}
+.one-two img{
+    width:100%;
+    height:100%;
+}
+#pop-image{
+    width:460px!important;
+    height:321px !important;
+}
+.one-two p#judul a{
+/*    border: 1px solid black;*/
+    background-color: #222222;
+    text-decoration: none;
+    color: white;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.one-two p#judul a:hover{
+    background-color: #d33f0f;
+}
+
+.satu a#button{
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    background-color: firebrick;
+    color: white;
+}
+.satu input#button{
+    text-decoration: none;
+    padding: 11px 21px 11px 8px;
+    background-color: #b22222;
+    color: white;
+    border: none;
+    cursor:pointer;
+    border-bottom-color: #850C0C;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-right-radius: 3px; 
+    border-bottom-left-radius: 3px;
+}
+
+i{
+    padding-left: 5px;
+    color: white;
+}
+i.fa-caret-right{
+    position: relative;
+    left: -20px;
+    top: 2px;
+}
+h1{
+    font-family: 'roboto-condensed';
+}
+/*<!--------------------------- POP UP LOGIN Afif + Ednan --------------------------->*/ 
+#mask{  
+    position:fixed;/* important */  
+    top:0px; /* start from top */  
+    left:0px; /* start from left */  
+    height:100%; /* cover the whole page */  
+    width:100%;  /* cover the whole page */
+     z-index: 3;
+    display:none; /* don't show it '*/  
+  
+    /* styling bellow */  
+    background-color: black;  
+}  
+ 
+/*--------------------------------------------------------*/
+.small{
+    position: fixed;
+    top: 50px !important;
+    max-width : 480px;
+    display: none;
+    z-index: 999999;
+}
+.close {
+	background-color: #2d2f31;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: relative;
+	left: 94%;
+    padding: 5px 7px 5px 7px;
+    top: 28px;
+	text-align: center;
+	
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+    font-size: 20px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 2px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #b22222; }
+
+
+@font-face {
+    font-family:'roboto-condensed';
+    src : url('roboto-condensed.ttf');
+}
+
+.pop-login{
+/*    margin-top: 100px;*/
+    border: 1px solid black;
+    font-family: roboto-condensed;
+    background-image: url(pattern-bhpy.png);
+}
+.pop-login p#title{
+    text-align: center;
+    font-size: 18pt;
+    background-color: #b22222;
+    margin-top: 0px;
+    padding: 20px;
+    color: #fcfcfd;
+}
+.pop-login #subtitle{
+    margin-left: 50px;
+    font-size: 16pt;
+    color: white;
+}
+.subtitle{
+    margin-left: 50px;
+    font-size: 16pt;
+    position: relative;
+/*    margin-top: 20px;*/
+    color: white;
+}
+.pop-login a#sosmed1{
+    text-decoration: none;
+}
+.pop-login a#sosmed1 img{
+    width: 46px;
+    margin-left: 50px;
+}
+.pop-login a#sosmed2{
+    text-decoration: none;
+}
+.pop-login a#sosmed2 img{
+    width: 46px;
+    margin-left: 50px;
+}
+.pop-login a#facebook{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 7.3px;
+    background-color: #3c599b;
+    text-decoration: none;
+    color: #fcfcfd;
+    border-radius: 5%;
+    font-size: 18pt;
+}
+.pop-login a#google{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 7.3px;
+    background-color: #dd4b39;
+    text-decoration: none;
+    color: #fcfcfd;
+    border-radius: 5%;
+    font-size: 18pt;
+}
+.pop-login form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pop-login form input#input{
+    width: 360px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+}
+.pop-login form input#submit{
+    width: 360px;
+    height: 40px;
+    margin-top: 10px;
+    color: #fcfcfd;
+    background-color: #d33f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14pt;
+    border-bottom-color: #8F2B0A;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-right-radius: 3px; 
+    border-bottom-left-radius: 3px;
+}
+.afea{
+    width: 100px;
+}
+.beda{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    color: white;
+}
+#check{
+ color: white;   
+}
+#remember{
+    color: white;
+    display: inline-block;
+}
+.ask-signup{
+    margin-left: 40%;
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+}
+#sign-up{
+    color: #fcfcfd;
+    background-color: #b22222;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+/*<!--------------------------- POP UP DAFTAR (Afif + Ednan) --------------------------->*/ 
+.signup{
+    max-width : 550px;
+    background-image: url(pattern-bhpy.png);
+    position: fixed;
+    top: 50px !important;
+    display: none;
+    z-index: 3;
+    
+}
+.daftar{
+    border: 1px solid black;
+    font-family:'roboto-condensed';
+}
+.daftar a.close{
+    background-color: #222222;
+    position: relative;
+    top: -66px;
+    left: 93.5%;
+    padding: 5px 12px 5px 12px;
+/*    right: -100px;*/
+}
+.daftar a.close:hover{
+    background-color: #d33f0f;
+}
+.daftar p#title{
+    text-align: center;
+    font-size: 18pt;
+    background-color: #b22222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    color: #fcfcfd;
+}
+.daftar #subtitle{
+    font-size: 16pt;
+}
+.daftar #subtitle{
+    font-size: 16pt;
+}
+
+.daftar-subtitle{
+    font-size: 16pt;
+    text-align: center;
+}
+.daftar-subtitle p.beda{
+    margin: 0px;
+}
+.daftar a#sosmed1{
+    text-decoration: none;
+}
+.daftar a#sosmed1 img{
+    width: 46px;
+    margin-left: 50px;
+}
+.daftar a#sosmed2{
+    text-decoration: none;
+}
+.daftar a#sosmed2 img{
+    width: 46px;
+    margin-left: 50px;
+}
+.daftar a#facebook{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 7.3px;
+    background-color: #3c599b;
+    text-decoration: none;
+    color: #fcfcfd;
+    border-radius: 5%;
+    font-size: 18pt;
+}
+.daftar a#google{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 7.3px;
+    background-color: #dd4b39;
+    text-decoration: none;
+    color: #fcfcfd;
+    border-radius: 5%;
+    font-size: 18pt;
+}
+.daftar form{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.daftar form input#input{
+    width: 260px;
+    height: 20px;
+/*    margin-bottom: 10px;*/
+    border: 1px solid blue;
+}
+.daftar form input#submit{
+    width: 110px;
+    height: 40px;
+    margin-left: 180px;
+    color: #fcfcfd;
+    background-color: #d33f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14pt;
+}
+.afea{
+    width: 100px;
+}
+.beda{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+}
+form table{
+    border-spacing: 15px;
+    margin-left: 5px;
+    color: white;
+}
+
+
+/*<!--------------------------- Detail Event Udin --------------------------->*/
+#login-dulu{
+    background-color: #b22222;
+    display: block;
+    color: white;
+    padding: 10px;
+}
+#map{
+    text-align: center;
+    background-color: #b22222;
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px
+}
+#gen-sama{
+    background-color:#b22222;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+#beli-tiket{
+    border: none;
+    background-color: #d33f0f;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 20px;
+    margin-left:88.8%;
+}
+.detail{
+    background-color: rebeccapurple;
+    margin: 20px 3px 0px 3px;
+}
+.right-content{
+position: relative;
+    left: 270px;
+    top: 13px;
+    height: auto;
+    width: 68%;
+	display: inline-block;
+	padding: 5px;
+    
+}
+.left-content{	
+    position: absolute;
+    top: 180px;
+    left: auto;
+	background-color: #2c2c2c;
+	margin-right: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+}
+.left-content ul{	
+list-style: none;
+    padding: 0px;
+}
+.left-content ul li img{	
+width: 250px;
+height: 194px;
+}
+.right-content .content{
+    background-color: #2c2c2c;
+
+}
+.right-content .content img{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 70%;
+
+}
+.right-content .content p{
+    margin: 0px;
+    color: white;
+    
+
+}
+.detail p{
+      margin: 0px;
+    color: white;
+    text-indent: 45px;  
+}
+.content{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.content ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    
+    
+}
+.content ul li{
+   color: white;
+    display: inline-block;
+/*    width: 19.3%;*/
+    min-width: 18.3%;
+    text-align: center;
+    background-color: #16a085;
+    
+}
+.content ul li p{
+   color: white;
+    display: inline-block;
+    color: white;
+    padding-left: 8px;
+    font-size: 20px;
+    position: relative;
+    top: -5px; 
+     
+}
+.content ul li div{
+background-color: #2abc68;
+}
+.content ul li i{
+font-size: 35px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.right-content #title h1{
+    text-align: left;
+    margin: 0px;
+    color: white;
+    background-color: #b22222;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.left-content a{
+	text-decoration: none;
+	color: black;
+}
+.right-content a{
+	text-decoration: none;
+	color: black;
+}
+.right-content a:hover{
+	color: blue;
+}
+.pesan {
+	text-align: right;
+}
+.tiket{
+    margin-bottom: 20px;
+}
+.tiket h3{
+    background-color: #b22222;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+    margin-bottom: 0px;
+}
+.tiket .tipe-tiket{
+    border-bottom: 1px solid #ff8414;
+    background-color: #2c2c2c;
+    position: relative;
+    
+}
+.tipe-tiket p{
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+}
+.cright{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20%;
+}
+.cright p{
+    font-size: 18px;
+    padding: 0px 20px;
+    color: white;
+    
+}
+.cleft{
+    display: inline-block;
+}
+.cleft p{
+    font-size: 22px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+}
+.pesan{
+	margin-bottom: 10px;
+	bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.pesan button{
+	background-color: #d33f0f;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*new*/
+#map-canvas {
+    width: 220px;
+    height: 200px;
+/*end new*/
+}
+
+/*-------------------------------------------Older Ednan-----------------------------------------*/
+.one-four{
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    margin-bottom: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.one-four form{
+     display: inline-block;
+}
+.one-four img{
+    width: 100%;
+    height:100%;
+}
+#rekomen-image{
+    width: 100%;
+    height:100%;   
+}
+
+.one-four .caption{
+    position: relative;
+    top: -40px;
+    background-color: #b22222;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+}
+.one-four:hover .caption{
+    opacity: 1;
+    transform: translateY(-50%);
+}
+.one-four .caption a{
+    text-decoration: none;
+    font-size: 20pt;
+    color: azure;   
+}
+.one-four p#judul-four{
+    text-align: right;
+    margin-top: 0px;
+}
+.one-four p#judul-four a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;   
+    padding-bottom: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.one-four p#judul-four a:hover{
+    background-color: #d33f0f;
+}
+
+/*browse-event Ednan*/
+.kategori{
+    margin-top: 70px;
+    text-align: center;
+}
+.kategori p{
+    color: white;
+    font-size: 20pt;
+    display: inline-block;
+    margin: 0px;
+}
+.kategori select{
+    height:30px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.kategori form{
+    display: inline-block;
+    margin-left: 10px;
+}
+.kategori form input{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.kategori form input, .kategori form select{
+    position: relative;
+    top: -5px;
+}
+.kategori-hasil p{
+    font-size: 18pt;
+    color: white;
+}
+.contain{
+    margin-bottom: 50px;
+}
+
+/*-------------------------------- contact us Adon --------------------------*/
+.cont-d{
+    position: absolute;
+    left: 378px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width : 42px 0px 0px 42px;
+    border-color: transparent transparent transparent #4567e3;
+}.cont-d-2{
+    position: absolute;
+    left: 400px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width : 42px 0px 0px 42px;
+    border-color: transparent transparent transparent #4567e3;
+}
+.container-us{
+        max-width : 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'roboto-condensed';
+}
+.four-four-us{
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;    
+}
+.two-four-us a{
+    text-decoration: none;
+    color: inherit;
+}
+.three-four-us a{
+    text-decoration: none;
+color: inherit;
+}
+.one-four-us{
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.two-four-us{
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.three-four-us{
+    margin-top: 35px;
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.one-four-us a{
+    color: inherit;
+    text-decoration: none;
+}
+ #fotocontact{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.third-content-a{
+    background-image: url('pattern-bhpy.png');
+}
+.third-content-a form table{
+    margin-left: 30px;
+    border-spacing: 10px;
+}
+.third-content-a form input{
+    height: 25px;
+    
+    top: -5px;
+}
+.third-content-a form textarea{
+    height: 80px;
+    width: 500px;
+}
+.input{
+    width: auto !important;
+    letter-spacing: 1px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    font-size: 18px;
+    position: relative;
+    top: -70px !important;
+    left: -80px;
+    float: right;
+    background-color: #b22222;
+    color: aliceblue;
+    width: 70px;
+    height: 40px !important;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.mencakup{
+    background-image: url('pattern-bhpy.png');
+    font-size: 16px;
+    color: white !important;
+}
+.contcol{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    background-color: #222222;   
+    color: #ff8414;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.concol{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    background-color: #222222;   
+    color: #ff8414;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formbawah{
+    margin-bottom: 2px;
+}
+#concol h3{
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: white;
+}
+
+/*<!--------------------------- Pemesanan Adon --------------------------->*/
+.summary{
+    background-color:#2c2c2c; 
+    color: white;
+    margin: 15px 0px;
+}
+.summary p#title{
+    background-color: #b22222;
+    margin : 0px;
+    font-size: 25px;
+    padding: 5px 15px 5px 15px;    
+    color: white;
+}
+.sum-tiket{
+    position: relative;
+}
+.sum-tiket p#nama-event{
+    background-color: #d33f0f;
+    margin : 0px;
+    font-size: 20px !important;
+    padding: 5px 15px 5px 15px;   
+    color: white;
+}
+.sum-tiket img{
+    width: 240px;
+    height:158px;
+    margin: 10px;
+    
+}
+.harga{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.harga p{
+margin: 0px;
+}
+.harga2{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.harga2 p {
+    margin: 0px;
+}
+p#total-harga{
+    margin: 0px;
+    padding: 10px;
+    background-color: #16a085;
+    position: absolute;
+    right: 70px;
+    top: 120px;
+}
+.da{
+    display: inline-block;
+    position: relative;
+    top: -58px;
+}
+.sum-tiket p{
+    display: inline-block;
+}
+.alamat{
+    background-color: #2c2c2c;
+    color: white;
+    position: relative;
+}
+.alamat p{
+    background-color: #d33f0f;
+    margin : 0px;
+    font-size: 17px !important;
+    padding: 5px 10px 5px 10px;
+}
+.alamat p#title{
+    background-color: #b22222;
+    margin : 0px;
+    font-size: 20px !Important;
+    padding: 10px 20px 10px 20px;
+}
+table#tb{
+    border-spacing: 10px;
+}
+table#tb tr td p{
+    font-size: 16pt;
+}
+form table#tb tr td textarea{
+    height: 80px;
+    width: 500px;    
+}
+.simpan{
+    width: 110px;
+    height: 40px;
+    color: #fcfcfd;
+    background-color: #16a085;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14pt;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+form#adon{
+    margin-bottom: 0px;
+}
+/*---------------------------- Status login/sign up -------------------------------*/
+.wrap{
+    width: 100%;
+    height: 67%;
+
+}
+.status-container{
+    font-family: 'roboto-condensed';
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    
+/*    margin-bottom: 60px;*/
+}
+.status-container p#one{
+    font-family: inherit;
+    text-align: center;
+    font-size: 18pt;
+    background-color: #d33f0f;
+    margin-top: 0px;
+    padding: 20px;
+    color: #fcfcfd;
+    margin-bottom: 0px;
+}
+.status{
+    color: white;
+   background-image: url('pattern-bhpy.png'); 
+}
+.status i{
+    color: green;
+    font-size: 70px;
+   
+}
+.status p#two{
+   margin: 0px;
+   display: inline-block;
+   font-size: 20px;
+}
+
+.status2{
+    width: 100%;
+}
+.status2{
+    color: white;
+   background-image: url('pattern-bhpy.png'); 
+}
+.status2 i{
+    color: #b22222;
+    font-size: 70px;
+   
+}
+.status2 p#two{
+   margin: 0px;
+   display: inline-block;
+   position: relative;
+   top: -20px;
+}
+/*---------------------------- Browse Event -------------------------------*/
+#filter{
+    background-color: #b22222;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor:pointer;
+    font-size: 17px !important;
+    padding: 7px 17px 7px 17px !important;
+    height: auto;
+    
+}
+.gagal{
+    background-color: #b22222;
+    height: 200px;
+    color: white;
+    
+}
+.gagal h1{
+    display: block;
+    font-size: 50px;
+    margin-left: 25px !important;
+    padding-top: 25px !important; 
+    margin-bottom: 0px;
+}
+.gagal p{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 25px !important;
+    margin-top: 25px !important;
+}
